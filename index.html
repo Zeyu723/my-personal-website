@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>woshi->xzy</title>
+</head>
+<body>
+
+
+
+
+    <div class="todo-app">
+        <div class="title">xxx的Todo App</div>
+        <div class="todo-form">
+            <input class="todo-input" type="text">
+            <div class="todo-button">add todo</div>
+        </div>
+        <div class="item complete">    
+            <div>
+                <input type="checkbox">
+                <span class="name">吃饭</span>
+            </div>
+            <div class="del">del</div>
+
+        </div>
+
+        <div class="item">    
+            <div>
+                <input type="checkbox">
+                <span class="name">吃饭</span>
+            </div>
+            <div class="del">del</div>
+
+        </div>
+
+        <div class="item">    
+            <div>
+                <input type="checkbox">
+                <span class="name">吃饭</span>
+            </div>
+            <div class="del">del</div>
+
+        </div>
+    </div>
+
+    <style>
+        .complete{
+            text-decoration: line-through;
+            opacity: 0.4;
+        }
+        .del{
+            color: red;
+        }
+        .item{
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+            width: 80%;
+            height: 50px;
+            margin: 8px auto;
+            padding: 16px;
+            border-radius: 20px;
+            box-shadow: rgb(197, 197, 197) 0px 8px 20px;
+        }
+        .todo-button{
+            width: 100px;
+            height: 52px;
+            line-height: 52px;
+            border-radius: 0 20px 20px 0;
+            text-align: center;
+            background: linear-gradient(
+            to right, 
+            rgb(237, 40, 244), 
+            rgb(44, 144, 251)); /* 渐变背景 */
+
+            color: white;
+            cursor: pointer;
+            user-select: none;
+
+
+        }
+        .todo-input{
+            border: 1px solid #dfe1e5 ;
+            outline: none;
+            width: 60%;
+            height: 50px;
+            border-radius: 20px 0 0 20px;
+            padding-left: 15px;/*添加《左边》间隔*/
+            margin-bottom: 30px;
+        }
+        .todo-form{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        /* 定义渐变背景样式 */
+        body {
+            /* 使用linear-gradient函数创建渐变 */
+            
+            background-image: linear-gradient(
+                to right, 
+                blue, purple);
+        }
+        .todo-app{
+            /* 设置边框圆角为10px */
+            border-radius: 10px;
+            margin-top: 40px;
+            width: 98%;
+            padding-top: 30px;
+            box-sizing: border-box;
+            height: 500px;
+            background-color: white;
+            margin-left: 1%;
+        }
+        .title{
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+    </style>
+
+
+
+
+    <!-- <input type="ikun">
+    <img src="https://regengbaike.com/uploads/20230222/1bff61de34bdc7bf40c6278b2848fbcf.jpg" 
+    alt=""> -->
+
+
+</body>
+</html>
